@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -5755,277 +5761,276 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TilesetNature_9: -241720087
-      TilesetNature_25: -721967150
-      TilesetNature_44: -1364490630
-      TilesetNature_21: -240283453
-      TilesetNature_124: 1508422459
-      TilesetNature_172: -1354984137
-      TilesetNature_222: 138405093
-      TilesetNature_67: 635438152
-      TilesetNature_31: -1958269
-      TilesetNature_89: -388027100
-      TilesetNature_228: 1281752425
-      TilesetNature_262: 242312725
-      TilesetNature_118: -1393819990
-      TilesetNature_137: 1055190295
-      TilesetNature_4: 1436465178
-      TilesetNature_62: 1101052998
+      TilesetNature_0: 1801077850
+      TilesetNature_1: 1733595889
+      TilesetNature_10: -1479911884
+      TilesetNature_100: -109384171
+      TilesetNature_101: -1334548594
+      TilesetNature_102: 806717583
+      TilesetNature_103: 936658260
+      TilesetNature_104: -497762770
+      TilesetNature_105: 1321069723
+      TilesetNature_106: 704424331
+      TilesetNature_107: -621408078
+      TilesetNature_108: 1784213538
+      TilesetNature_109: -400760716
+      TilesetNature_11: 92889337
+      TilesetNature_110: 1919024618
+      TilesetNature_111: 902549564
+      TilesetNature_112: -2125292615
+      TilesetNature_113: 1756040483
+      TilesetNature_114: -2118769002
+      TilesetNature_115: 101747463
+      TilesetNature_116: -262016316
       TilesetNature_117: 1776725480
-      TilesetNature_164: 78930682
-      TilesetNature_79: -1215989734
-      TilesetNature_73: -1345830640
-      TilesetNature_181: 868314846
-      TilesetNature_252: 1581377428
+      TilesetNature_118: -1393819990
+      TilesetNature_119: 1984470279
+      TilesetNature_12: -1607035876
+      TilesetNature_120: 412662647
+      TilesetNature_121: 1072180923
+      TilesetNature_122: 460042933
+      TilesetNature_123: 2072272020
+      TilesetNature_124: 1508422459
+      TilesetNature_125: 940390648
+      TilesetNature_126: -902684562
+      TilesetNature_127: 2008034981
+      TilesetNature_128: 592587133
+      TilesetNature_129: -1400269086
+      TilesetNature_13: -1425096465
+      TilesetNature_130: -370935687
       TilesetNature_131: -319707206
+      TilesetNature_132: 1300629344
+      TilesetNature_133: 1090482
+      TilesetNature_134: 314446100
+      TilesetNature_135: -787997574
+      TilesetNature_136: 1933015903
+      TilesetNature_137: 1055190295
+      TilesetNature_138: -432839201
+      TilesetNature_139: 1306752935
+      TilesetNature_14: -933140192
+      TilesetNature_140: 334457564
+      TilesetNature_141: 1001785215
+      TilesetNature_142: -470073718
+      TilesetNature_143: 1981272376
+      TilesetNature_144: -562271214
+      TilesetNature_145: -146108215
+      TilesetNature_146: 626449167
+      TilesetNature_147: -1975270480
+      TilesetNature_148: 723293834
+      TilesetNature_149: 1962006870
+      TilesetNature_15: -1392140861
+      TilesetNature_150: -830980118
+      TilesetNature_151: -424171624
+      TilesetNature_152: 1337408085
+      TilesetNature_153: -2011055920
+      TilesetNature_154: -795400303
+      TilesetNature_155: 221411990
+      TilesetNature_156: 425156600
+      TilesetNature_157: 216334536
+      TilesetNature_158: 1018275386
+      TilesetNature_159: -1589488061
+      TilesetNature_16: -1606277466
+      TilesetNature_160: 1842297352
+      TilesetNature_161: 129842466
+      TilesetNature_162: -723633318
+      TilesetNature_163: -1247217897
+      TilesetNature_164: 78930682
+      TilesetNature_165: 332346556
+      TilesetNature_166: 31797380
+      TilesetNature_167: -395025681
+      TilesetNature_168: -966379082
+      TilesetNature_169: 1354963580
+      TilesetNature_17: 113748909
+      TilesetNature_170: 576635514
+      TilesetNature_171: -1096602598
+      TilesetNature_172: -1354984137
+      TilesetNature_173: 1210448534
+      TilesetNature_174: -2062825982
+      TilesetNature_175: 1223334969
+      TilesetNature_176: 83111455
+      TilesetNature_177: 2118014245
+      TilesetNature_178: -829588973
+      TilesetNature_179: 1433938284
+      TilesetNature_18: 1922264528
+      TilesetNature_180: 1727139782
+      TilesetNature_181: 868314846
+      TilesetNature_182: 604460775
+      TilesetNature_183: -1040410317
+      TilesetNature_184: 1073585338
       TilesetNature_185: -1373495253
-      TilesetNature_250: 484186137
+      TilesetNature_186: -69396869
+      TilesetNature_187: 1476342900
+      TilesetNature_188: -889032271
+      TilesetNature_189: -1863870115
+      TilesetNature_19: 390226518
+      TilesetNature_190: 1340572983
+      TilesetNature_191: -1163410038
+      TilesetNature_192: 1929870116
+      TilesetNature_193: 1204548477
+      TilesetNature_194: 565106528
+      TilesetNature_195: -549639946
+      TilesetNature_196: -1563736417
+      TilesetNature_197: 39098948
+      TilesetNature_198: 52437123
+      TilesetNature_199: 1694882252
+      TilesetNature_2: 484957431
+      TilesetNature_20: -1948093445
+      TilesetNature_200: 1653523281
+      TilesetNature_201: -631769057
+      TilesetNature_202: 714646462
+      TilesetNature_203: 1160921760
+      TilesetNature_204: -1376351083
+      TilesetNature_205: 779800108
+      TilesetNature_206: 510146803
+      TilesetNature_207: 523426223
       TilesetNature_208: 1256503920
-      TilesetNature_27: 1628987971
-      TilesetNature_5: -1485827851
+      TilesetNature_209: 831430647
+      TilesetNature_21: -240283453
+      TilesetNature_210: 139464648
+      TilesetNature_211: 426135053
+      TilesetNature_212: -438264315
+      TilesetNature_213: -924240988
+      TilesetNature_214: -1917584241
+      TilesetNature_215: 964539740
+      TilesetNature_216: 1520481194
+      TilesetNature_217: 154386997
+      TilesetNature_218: 817462154
+      TilesetNature_219: -758868232
+      TilesetNature_22: -1254734150
+      TilesetNature_220: 743447969
+      TilesetNature_221: -1733293966
+      TilesetNature_222: 138405093
+      TilesetNature_223: 274962391
+      TilesetNature_224: -1080515277
+      TilesetNature_225: 2140705458
+      TilesetNature_226: 1162290634
+      TilesetNature_227: -512755592
+      TilesetNature_228: 1281752425
+      TilesetNature_229: -2061523738
+      TilesetNature_23: -1520376853
+      TilesetNature_230: 1349874854
+      TilesetNature_231: -1406066225
+      TilesetNature_232: -231909643
+      TilesetNature_233: -477460246
+      TilesetNature_234: -363828452
+      TilesetNature_235: 397958027
+      TilesetNature_236: -186029093
+      TilesetNature_237: -269298940
+      TilesetNature_238: -1058008878
+      TilesetNature_239: 1678928810
+      TilesetNature_24: 1845631179
+      TilesetNature_240: 1849044863
+      TilesetNature_241: 1808503059
+      TilesetNature_242: -1377199120
+      TilesetNature_243: -1326860332
+      TilesetNature_244: -469516473
+      TilesetNature_245: -805357393
+      TilesetNature_246: 792899857
+      TilesetNature_247: 1680223779
+      TilesetNature_248: 1768300881
+      TilesetNature_249: -133595068
+      TilesetNature_25: -721967150
+      TilesetNature_250: 484186137
+      TilesetNature_251: -755801008
+      TilesetNature_252: 1581377428
+      TilesetNature_253: 152619824
+      TilesetNature_254: -627455692
+      TilesetNature_255: 194261049
+      TilesetNature_256: 1094683789
+      TilesetNature_257: -1396474499
+      TilesetNature_258: -923178972
+      TilesetNature_259: -829105063
+      TilesetNature_26: -1921174687
+      TilesetNature_260: -1628564313
+      TilesetNature_261: 686372830
+      TilesetNature_262: 242312725
+      TilesetNature_263: 791741171
       TilesetNature_264: -173794228
       TilesetNature_265: -82897918
-      TilesetNature_68: 905157069
-      TilesetNature_74: 1167745952
-      TilesetNature_130: -370935687
-      TilesetNature_148: 723293834
-      TilesetNature_14: -933140192
-      TilesetNature_69: 1864375473
-      TilesetNature_107: -621408078
-      TilesetNature_7: 740888413
-      TilesetNature_170: 576635514
-      TilesetNature_214: -1917584241
-      TilesetNature_177: 2118014245
-      TilesetNature_202: 714646462
-      TilesetNature_189: -1863870115
-      TilesetNature_121: 1072180923
-      TilesetNature_136: 1933015903
-      TilesetNature_114: -2118769002
-      TilesetNature_192: 1929870116
-      TilesetNature_78: -1150930971
-      TilesetNature_242: -1377199120
-      TilesetNature_249: -133595068
-      TilesetNature_171: -1096602598
-      TilesetNature_261: 686372830
-      TilesetNature_26: -1921174687
-      TilesetNature_204: -1376351083
-      TilesetNature_90: 529022452
-      TilesetNature_77: 745424225
-      TilesetNature_187: 1476342900
-      TilesetNature_81: -721689787
-      TilesetNature_238: -1058008878
-      TilesetNature_138: -432839201
-      TilesetNature_190: 1340572983
-      TilesetNature_116: -262016316
-      TilesetNature_219: -758868232
-      TilesetNature_47: -1664790481
-      TilesetNature_76: -209883696
-      TilesetNature_213: -924240988
-      TilesetNature_217: 154386997
-      TilesetNature_237: -269298940
-      TilesetNature_205: 779800108
-      TilesetNature_123: 2072272020
-      TilesetNature_224: -1080515277
-      TilesetNature_176: 83111455
-      TilesetNature_162: -723633318
-      TilesetNature_91: -496232039
-      TilesetNature_233: -477460246
-      TilesetNature_87: -2120034563
-      TilesetNature_150: -830980118
-      TilesetNature_186: -69396869
-      TilesetNature_193: 1204548477
-      TilesetNature_198: 52437123
-      TilesetNature_232: -231909643
-      TilesetNature_173: 1210448534
-      TilesetNature_75: -669432204
-      TilesetNature_243: -1326860332
-      TilesetNature_133: 1090482
-      TilesetNature_3: 1191554602
-      TilesetNature_267: -1996181637
-      TilesetNature_139: 1306752935
-      TilesetNature_154: -795400303
-      TilesetNature_201: -631769057
-      TilesetNature_58: -1061920372
-      TilesetNature_104: -497762770
-      TilesetNature_128: 592587133
-      TilesetNature_50: 728740442
-      TilesetNature_209: 831430647
-      TilesetNature_97: 1597407020
-      TilesetNature_40: -1991547254
-      TilesetNature_43: -632226102
-      TilesetNature_259: -829105063
-      TilesetNature_210: 139464648
-      TilesetNature_169: 1354963580
-      TilesetNature_216: 1520481194
-      TilesetNature_167: -395025681
-      TilesetNature_215: 964539740
-      TilesetNature_258: -923178972
-      TilesetNature_0: 1801077850
-      TilesetNature_135: -787997574
-      TilesetNature_71: -693606166
-      TilesetNature_35: 1389816928
-      TilesetNature_246: 792899857
-      TilesetNature_36: 803618723
-      TilesetNature_151: -424171624
-      TilesetNature_244: -469516473
-      TilesetNature_188: -889032271
-      TilesetNature_207: 523426223
-      TilesetNature_85: 1644582698
-      TilesetNature_95: 432208315
-      TilesetNature_141: 1001785215
-      TilesetNature_52: 1842229391
-      TilesetNature_42: 714483973
-      TilesetNature_54: -360068100
-      TilesetNature_221: -1733293966
-      TilesetNature_191: -1163410038
-      TilesetNature_70: 1568893251
-      TilesetNature_248: 1768300881
-      TilesetNature_140: 334457564
-      TilesetNature_129: -1400269086
-      TilesetNature_16: -1606277466
-      TilesetNature_197: 39098948
-      TilesetNature_15: -1392140861
-      TilesetNature_34: -1457786474
-      TilesetNature_174: -2062825982
-      TilesetNature_23: -1520376853
-      TilesetNature_239: 1678928810
-      TilesetNature_98: 427101367
-      TilesetNature_184: 1073585338
-      TilesetNature_88: 2085117234
-      TilesetNature_55: -1070007884
-      TilesetNature_231: -1406066225
-      TilesetNature_196: -1563736417
-      TilesetNature_28: -459496606
-      TilesetNature_61: 976797655
-      TilesetNature_24: 1845631179
-      TilesetNature_37: 1911306114
-      TilesetNature_10: -1479911884
-      TilesetNature_53: 2064235223
-      TilesetNature_156: 425156600
-      TilesetNature_56: 1993794033
-      TilesetNature_145: -146108215
-      TilesetNature_132: 1300629344
-      TilesetNature_96: 1970224180
-      TilesetNature_247: 1680223779
-      TilesetNature_218: 817462154
-      TilesetNature_220: 743447969
-      TilesetNature_178: -829588973
-      TilesetNature_39: -1683626881
-      TilesetNature_59: 1129019387
-      TilesetNature_254: -627455692
-      TilesetNature_65: 1139353567
-      TilesetNature_182: 604460775
-      TilesetNature_120: 412662647
-      TilesetNature_235: 397958027
-      TilesetNature_227: -512755592
-      TilesetNature_240: 1849044863
-      TilesetNature_119: 1984470279
-      TilesetNature_149: 1962006870
-      TilesetNature_111: 902549564
-      TilesetNature_1: 1733595889
-      TilesetNature_106: 704424331
-      TilesetNature_180: 1727139782
-      TilesetNature_64: -2012020254
-      TilesetNature_166: 31797380
-      TilesetNature_45: -101737469
-      TilesetNature_82: -139321462
-      TilesetNature_159: -1589488061
-      TilesetNature_263: 791741171
-      TilesetNature_146: 626449167
-      TilesetNature_225: 2140705458
-      TilesetNature_253: 152619824
-      TilesetNature_6: 1859431283
-      TilesetNature_19: 390226518
-      TilesetNature_234: -363828452
-      TilesetNature_203: 1160921760
-      TilesetNature_108: 1784213538
-      TilesetNature_143: 1981272376
-      TilesetNature_241: 1808503059
-      TilesetNature_168: -966379082
-      TilesetNature_66: -643549765
-      TilesetNature_20: -1948093445
-      TilesetNature_160: 1842297352
-      TilesetNature_226: 1162290634
-      TilesetNature_83: -1896300182
-      TilesetNature_157: 216334536
-      TilesetNature_161: 129842466
-      TilesetNature_179: 1433938284
-      TilesetNature_101: -1334548594
-      TilesetNature_245: -805357393
-      TilesetNature_147: -1975270480
-      TilesetNature_113: 1756040483
-      TilesetNature_125: 940390648
-      TilesetNature_94: -1311196005
-      TilesetNature_206: 510146803
-      TilesetNature_236: -186029093
-      TilesetNature_251: -755801008
-      TilesetNature_48: -1941749755
-      TilesetNature_257: -1396474499
-      TilesetNature_2: 484957431
-      TilesetNature_46: 2009502842
-      TilesetNature_195: -549639946
-      TilesetNature_13: -1425096465
-      TilesetNature_100: -109384171
-      TilesetNature_17: 113748909
-      TilesetNature_51: 1871351752
-      TilesetNature_175: 1223334969
-      TilesetNature_33: 1271577553
-      TilesetNature_32: 676166687
-      TilesetNature_102: 806717583
-      TilesetNature_144: -562271214
-      TilesetNature_105: 1321069723
-      TilesetNature_223: 274962391
-      TilesetNature_49: -356949950
-      TilesetNature_127: 2008034981
-      TilesetNature_199: 1694882252
-      TilesetNature_230: 1349874854
-      TilesetNature_29: -1088110732
-      TilesetNature_155: 221411990
-      TilesetNature_103: 936658260
-      TilesetNature_158: 1018275386
-      TilesetNature_163: -1247217897
-      TilesetNature_22: -1254734150
-      TilesetNature_72: 2016971625
-      TilesetNature_152: 1337408085
-      TilesetNature_256: 1094683789
-      TilesetNature_200: 1653523281
-      TilesetNature_30: -1894414186
-      TilesetNature_57: -589829029
-      TilesetNature_41: 353251859
-      TilesetNature_122: 460042933
-      TilesetNature_109: -400760716
-      TilesetNature_194: 565106528
-      TilesetNature_92: -1716035737
-      TilesetNature_99: -16148
-      TilesetNature_63: -1397567318
-      TilesetNature_229: -2061523738
-      TilesetNature_115: 101747463
-      TilesetNature_260: -1628564313
-      TilesetNature_183: -1040410317
-      TilesetNature_142: -470073718
-      TilesetNature_93: -1792801488
-      TilesetNature_84: -707327710
-      TilesetNature_110: 1919024618
-      TilesetNature_212: -438264315
-      TilesetNature_11: 92889337
-      TilesetNature_255: 194261049
-      TilesetNature_153: -2011055920
-      TilesetNature_165: 332346556
-      TilesetNature_134: 314446100
-      TilesetNature_211: 426135053
       TilesetNature_266: 1562303603
-      TilesetNature_12: -1607035876
-      TilesetNature_8: 1688467372
-      TilesetNature_60: 87840443
-      TilesetNature_80: -1075999736
-      TilesetNature_86: 930183161
+      TilesetNature_267: -1996181637
+      TilesetNature_27: 1628987971
+      TilesetNature_28: -459496606
+      TilesetNature_29: -1088110732
+      TilesetNature_3: 1191554602
+      TilesetNature_30: -1894414186
+      TilesetNature_31: -1958269
+      TilesetNature_32: 676166687
+      TilesetNature_33: 1271577553
+      TilesetNature_34: -1457786474
+      TilesetNature_35: 1389816928
+      TilesetNature_36: 803618723
+      TilesetNature_37: 1911306114
       TilesetNature_38: -791263509
-      TilesetNature_18: 1922264528
-      TilesetNature_112: -2125292615
-      TilesetNature_126: -902684562
-  spritePackingTag: 
+      TilesetNature_39: -1683626881
+      TilesetNature_4: 1436465178
+      TilesetNature_40: -1991547254
+      TilesetNature_41: 353251859
+      TilesetNature_42: 714483973
+      TilesetNature_43: -632226102
+      TilesetNature_44: -1364490630
+      TilesetNature_45: -101737469
+      TilesetNature_46: 2009502842
+      TilesetNature_47: -1664790481
+      TilesetNature_48: -1941749755
+      TilesetNature_49: -356949950
+      TilesetNature_5: -1485827851
+      TilesetNature_50: 728740442
+      TilesetNature_51: 1871351752
+      TilesetNature_52: 1842229391
+      TilesetNature_53: 2064235223
+      TilesetNature_54: -360068100
+      TilesetNature_55: -1070007884
+      TilesetNature_56: 1993794033
+      TilesetNature_57: -589829029
+      TilesetNature_58: -1061920372
+      TilesetNature_59: 1129019387
+      TilesetNature_6: 1859431283
+      TilesetNature_60: 87840443
+      TilesetNature_61: 976797655
+      TilesetNature_62: 1101052998
+      TilesetNature_63: -1397567318
+      TilesetNature_64: -2012020254
+      TilesetNature_65: 1139353567
+      TilesetNature_66: -643549765
+      TilesetNature_67: 635438152
+      TilesetNature_68: 905157069
+      TilesetNature_69: 1864375473
+      TilesetNature_7: 740888413
+      TilesetNature_70: 1568893251
+      TilesetNature_71: -693606166
+      TilesetNature_72: 2016971625
+      TilesetNature_73: -1345830640
+      TilesetNature_74: 1167745952
+      TilesetNature_75: -669432204
+      TilesetNature_76: -209883696
+      TilesetNature_77: 745424225
+      TilesetNature_78: -1150930971
+      TilesetNature_79: -1215989734
+      TilesetNature_8: 1688467372
+      TilesetNature_80: -1075999736
+      TilesetNature_81: -721689787
+      TilesetNature_82: -139321462
+      TilesetNature_83: -1896300182
+      TilesetNature_84: -707327710
+      TilesetNature_85: 1644582698
+      TilesetNature_86: 930183161
+      TilesetNature_87: -2120034563
+      TilesetNature_88: 2085117234
+      TilesetNature_89: -388027100
+      TilesetNature_9: -241720087
+      TilesetNature_90: 529022452
+      TilesetNature_91: -496232039
+      TilesetNature_92: -1716035737
+      TilesetNature_93: -1792801488
+      TilesetNature_94: -1311196005
+      TilesetNature_95: 432208315
+      TilesetNature_96: 1970224180
+      TilesetNature_97: 1597407020
+      TilesetNature_98: 427101367
+      TilesetNature_99: -16148
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

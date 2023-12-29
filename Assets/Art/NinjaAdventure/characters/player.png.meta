@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -526,28 +532,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      player_0: 667598398
       player_1: 1357936867
+      player_10: -1346131885
+      player_11: -816946191
+      player_12: -586293147
+      player_13: -69210111
+      player_14: -936149968
       player_15: -60410482
       player_16: 1112811514
-      player_8: -1604149638
-      player_14: -936149968
-      player_12: -586293147
+      player_17: 1170020014
+      player_18: 1275528546
+      player_2: 2100864481
+      player_3: -2104403534
       player_4: 1382376699
       player_5: -514652582
-      player_0: 667598398
-      player_9: -1377347116
-      player_3: -2104403534
-      player_18: 1275528546
       player_6: 2111739132
-      player_10: -1346131885
-      player_2: 2100864481
-      player_17: 1170020014
-      player_13: -69210111
-      player_11: -816946191
       player_7: 1094273437
-  spritePackingTag: 
+      player_8: -1604149638
+      player_9: -1377347116
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

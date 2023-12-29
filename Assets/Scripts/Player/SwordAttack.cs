@@ -3,70 +3,91 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SwordAttack : MonoBehaviour
-{   
-    //collider of the sword
+{
+    private static SwordAttack _instance;
+    [SerializeField] private AudioSource soundSwordAttack;
+
+    public static SwordAttack Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType<SwordAttack>();
+                if (_instance == null)
+                {
+                    GameObject go = new GameObject("SwordAttack");
+                    _instance = go.AddComponent<SwordAttack>();
+                }
+            }
+            return _instance;
+        }
+    }
+
+    // Collider of the sword
     public Collider2D swordCollider;
-    Vector2 rightAttackOffset;
-    public float swordDamage = 2;
+    private Vector2 rightAttackOffset;
+    public float swordDamage = 2f;
     public float knockbackPower = 1500f;
+
+    // Ensure that there is only one SwordAttack instance in the game
+    void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (_instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         swordCollider.enabled = false;
-        rightAttackOffset = transform.position;//get the default position of the sword (right of the player)
+        rightAttackOffset = transform.position; // Default position of the sword (right of the player)
     }
 
     public void AttackRight()
-    {   //activate the collider and attack to the right
+    {
         swordCollider.enabled = true;
+        
+        soundSwordAttack.Play();
         transform.localPosition = rightAttackOffset;
     }
+
     public void AttackLeft()
     {
-        //activate the collider and attack to the left (same as right but negative x value)
         swordCollider.enabled = true;
-        transform.localPosition = new Vector2(rightAttackOffset.x * -1, rightAttackOffset.y);
+        
+        soundSwordAttack.Play();
+        transform.localPosition = new Vector2(-rightAttackOffset.x, rightAttackOffset.y);
     }
 
     public void StopAttack()
     {
-        //function call at the end of the attack
         swordCollider.enabled = false;
     }
 
-    //call when the collider of the sword touch something
-    private void OnTriggerEnter2D(Collider2D other) {
-        //can attack all things declared as "Damageable" with the tag
-        if (other.tag == "Damageable")
+    // Call when the collider of the sword touches something
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Damageable"))
         {
             IDamageable damageable = other.GetComponent<IDamageable>();
-
-            if(damageable != null)
+            if (damageable != null)
             {
-                Vector3 parentPosition = gameObject.GetComponentInParent<Transform>().position;
-                Vector2 direction = (Vector2) (other.gameObject.transform.position - gameObject.GetComponentInParent<Transform>().position).normalized;
+                Vector2 direction = ((Vector2)(other.transform.position - transform.position)).normalized;
                 Vector2 knockback = direction * knockbackPower;
-                //call takedamage function with a knockback
                 damageable.TakeDamage(swordDamage, knockback);
             }
-            else{
+            else
+            {
                 Debug.LogWarning("Does not implement IDamageable");
             }
         }
-        
-        //Old script to attack without knockback and only enemy not all damageable characters
-        /*  if(other.tag == "Enemy")
-         {
-            //deal damage to the enemy only if he has the tag
-            Enemy enemy = other.GetComponent<Enemy>();
-            if(enemy!=null)
-            {
-                
-                enemy.TakeDamage(swordDamage);
-            }
-        } */
-         
     }
-
 }

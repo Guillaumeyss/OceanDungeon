@@ -18,9 +18,10 @@ public class PlayerController : MonoBehaviour
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     Animator animator;
-    
+    [SerializeField] private AudioSource soundMovement;
 
     Rigidbody2D rb;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +37,8 @@ public class PlayerController : MonoBehaviour
             {
                 bool success = TryToMove(movementInput);//try to move with all input
 
-                if(!success)
-                {
+                if (!success){
+
                     success = TryToMove(new Vector2(movementInput.x, 0));//try to move only with horizontal axis
 
                     if(!success)
@@ -71,6 +72,9 @@ public class PlayerController : MonoBehaviour
 
             if(count == 0)
             {
+                if(!soundMovement.isPlaying){
+                    soundMovement.Play();
+                }
                 rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
                 return true;
             }
@@ -125,3 +129,4 @@ public class PlayerController : MonoBehaviour
         canMove = true;
     }
 }
+
